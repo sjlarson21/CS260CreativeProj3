@@ -1,0 +1,58 @@
+.body {
+    background-image:url(Images/color-poly.jpg);
+    /* background-image:url(Images/waves.gif); */
+    background-color:#cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+/* .background {
+    min-width: 100%;
+    background-image:url(Images/vector-world.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+} */
+
+.header {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: lightseagreen;
+}
+
+.footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: cyan;
+}
+
+.transbox {
+    margin: 150px;
+    background-color: #ffffff;
+    opacity: 50%;
+}
+
+.inputform {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightcoral;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 50px;
+    color:cyan;
+    line-height: 500px;
+    text-align: center;
+    background: #ffffff;
+}

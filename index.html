@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Creative Proj 3</title>
+        <link rel="stylesheet" href="./style.css">
+        <!-- <link rel="stylesheet" type="text/css" href="chrome-extension://bmhcbmnbenmcecpmpepghooflbehcack/styles/tooltip.css"> -->
+        <link rel="stylesheet" href="https://unpkg.com/vue-swatches/dist/vue-swatches.min.css">
+    </head>
+    <body class="body">
+            <!-- <template>
+                    <div :style="{background: color}">
+                        <color-picker
+                            theme="light"
+                            :color="color"
+                            :sucker-hide="false"
+                            :sucker-canvas="suckerCanvas"
+                            :sucker-area="suckerArea"
+                            @changeColor="changeColor"
+                            @openSucker="openSucker"
+                        />
+                    </div>
+            </template> -->
+        <div class="background">
+            <div class="transbox">
+                <h1 class="header">QUICK COLORS</h1>
+                <div id="app">
+                    <div class="form__field">
+                        <div class="form__label">
+                            <strong>CHOOSE A COLOR: </strong>
+                        </div>
+                        <div class="form__input">
+                                <swatches v-model="color" popover-to="left"></swatches>
+                        </div>
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <div class ="footer">
+                        <a href="https://github.com/sjlarson21/CS260CreativeProj3">GITHUB</a>
+                    </div>
+                </div>
+
+                
+                
+                <!-- <form class="inputform">
+                    <label>ENTER TEXT</label>
+                    <br>
+                    <input id="txtInput" type="text"></input>
+        
+                    <input id="txtSubmit" type="submit" value="TRANSLATE"></input>
+                </form>
+                <br><br><br>
+                <div id="google_translate_element"></div> -->
+
+
+            </div>
+            <!-- <div class="circle">
+                    <h1 class="header">QUICK COLORS</h1>
+            </div> -->
+        </div>
+
+        <template>
+                <div>
+                  <swatches v-model="color" />
+                </div>
+        </template>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue-swatches"></script>
+        <script src="./script.js"></script>
+    </body>
+    
+</html>
